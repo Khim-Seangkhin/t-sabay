@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="hidden md:block bg-bgBlack">
+      <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+        <!-- Logo -->
+        <div>
+          <img
+            src="images/logo.png"
+            alt=""
+            class="md:w-16 md:h-16 lg:w-20 lg:h-20 object-cover"
+          />
+        </div>
+        <!-- Adz Top -->
+        <div>
+          <img src="images/adz_top_1.png" alt="" class="md:h-16 lg:h-20" />
+        </div>
+      </div>
+    </header>
+    <!-- Navbar -->
+    <nav class="bg-bgBlack md:bg-bgRed sticky top-0 z-10">
+      <div
+        class="max-w-6xl mx-auto flex justify-between items-center px-4 py-2 md:py-4"
+      >
+        <div
+          id="menu"
+          class="absolute z-10 flex flex-col gap-y-4 top-full left-0 p-4 md:p-0 text-base bg-bgRed w-full gap-x-4 font-semibold md:text-lg text-gray-300 md:static md:flex-row md:bg-transparent"
+        >
+          <a
+            href="index.html"
+            class="hover:text-gray-100 underline underline-offset-8"
+            >ទំព័រដើម</a
+          >
+          <a href="by_category.html" class="hover:text-gray-100">កម្សាន្ដ</a>
+          <a href="by_category.html" class="hover:text-gray-100"
+            >បច្ចេកវិទ្យា</a
+          >
+          <a href="by_category.html" class="hover:text-gray-100"
+            >ជីវិតនិងសង្គម</a
+          >
+          <a href="by_category.html" class="hover:text-gray-100">កីឡា</a>
+        </div>
+        <!-- Icon -->
+        <button
+          id="menu-btn"
+          class="block hamburger md:hidden focus:outline-none"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+        <!-- Logo -->
+        <div class="block md:hidden">
+          <a href="#">
+            <img src="images/logo.png" alt="" class="object-cover w-9 h-9" />
+          </a>
+        </div>
+        <!-- Deals -->
+        <div class="block md:hidden">
+          <img src="images/deals.gif" alt="" class="w-11" />
+        </div>
+      </div>
+    </nav>
+    <!-- By Category -->
+    <section>
+      <div class="max-w-6xl mx-auto px-0 md:px-4">
+        <!-- Flex Container -->
+        <div class="flex gap-x-6">
+          <!-- News Box -->
+          <div class="w-full lg:w-9/12">
+            <div class="border-2 p-3 md:py-4 md:px-8 mt-2 md:mt-5 shadow-lg">
+              <!-- News Detail -->
+              <div>
+                <h2 class="text-2xl">
+                  កុំឱ្យសោះ! កុំងូតទឹកត្រជាក់ភ្លាមៗ
+                  ក្រោយត្រឡប់មកពីកន្លែងដែលមាន​សីតុណ្ហភាពក្តៅ
+                </h2>
+                <div class="flex justify-between my-4 pb-3 text-xs border-b-2">
+                  <div>ថ្ងៃនេះ ម៉ោង 09:38</div>
+                  <div>ចំនួនមតិ 0 | ចំនួនចែករំលែក 0</div>
+                </div>
+                <p class="w-full text-base text-justify">
+                  ក្នុងអំឡុងពេលពេលអាកាស​ក្តៅ​នេះ​ក្រសួង​សុខាភិបាល​បាន​ណែនាំ​ឱ្យ​ងូតទឹកត្រជាក់​ឬទឹកធម្មតា​ឱ្យបានញឹកញាប់​
+                  ប៉ុន្តែត្រូវចៀសវាង​ការធ្វើឱ្យមាន​ការផ្លាស់ប្តូរសីតុណ្ហភាពខ្លាំង​គឺ​ចៀសវាងការងូតទឹកត្រជាក់ភ្លាមៗ
+                  ​បន្ទាប់ពី​ត្រឡប់មកពី​កន្លែង​ដែលមានសីតុណ្ហភាពក្តៅ​ដែល​អាចបណ្តាល​ឱ្យមានការថយចុះកម្តៅភ្លាមៗ
+                  ​និងអាចមានគ្រោះថ្នាក់​ជាពិសេស​ចំពោះ​មនុស្សចាស់​ឬកុមារ។​នេះបើតាម​សេចក្តីប្រកាស​ព័ត៌មាន
+                  ​របស់​ក្រសួង​សុខាភិបាល​ស្តីពីការប្រុងប្រយ័ត្ន​ការពារ​សុខភាព​ក្នុងអំឡុងពេល​មានអាកាសធាតុក្តៅ។
+                  ក្រសួង​បានលើកឡើង​ថា​បុគ្គល​គ្រប់រូប​អាចធ្លាក់​ខ្លួនឈឺ​ដោយសារកម្តៅ​ជាពិសេស​បុគ្គល​ដែលមាន​ហា
+                  និភ័យ​ខ្ពស់​គឺ​មនុស្សចាស់​ទារក​​កុមារ​ស្រ្តីមានផ្ទៃពោះ​អ្នកធ្វើការងារ​នៅ​លម្ហខាងក្រៅ​អត្តពលិក​អ្នកដែល
+                  មាន​ប្រព័ន្ធ​ការងារ​រាងកាយខ្សោយ​និងអ្នកមានជំងឺរុំារ៉ៃ។​ពេលអាកាសធាតុក្តៅខ្លាំង​អាចបណ្តាលឱ្យ​មាន​
+                  រោគសញ្ញាមួយចំនួន​ដូចជា​ការបែកញើសខ្លាំងខុសពីធម្មតា​អស់កម្លាំង​ឈឺរមួលក្រពើ​ឈឺក្បាល​ចង្អោរ​ក្អួត
+                  ​វិលមុខ​ដួលសន្លប់​ជីពចរដើរលឿនហើយខ្សោយ​និងជំងឺដាច់សរសៃឈាមខួរក្បាល​ជាដើម។​<br>
+                  សូមអាន​ការណែនាំបន្ថែម​ក្នុងសេចក្តីប្រកាសព័ត៌មានខាងក្រោមនេះ៖
+                </p>
+                <img src="images/detail_1.jpg" alt="" class="mt-1 w-full object-cover">
+                <img src="images/detail_2.jpg" alt="" class="mt-1 w-full object-cover">
+                <!-- Button Share -->
+                <div class="flex justify-end items-center gap-x-2 my-5 text-base md:text-lg">
+                  <a href="#"><i class="p-2 md:p-3 rounded bg-red-200 fab fa-facebook"></i></a>
+                  <a href="#"><i class="p-2 md:p-3 rounded bg-red-200 fab fa-instagram"></i></a>
+                  <a href="#"><i class="p-2 md:p-3 rounded bg-red-200 fab fa-twitter"></i></a>
+                  <a href="#"><i class="p-2 md:p-3 rounded bg-red-200 fab fa-tiktok"></i></a>
+                </div>
+              </div>
+              <!-- Related News -->
+              <div>
+                <h2
+                  class="mt-7 text-lg font-semibold underline underline-offset-8"
+                >
+                  អត្ថបទទាក់ទង
+                </h2>
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 mt-3">
+                  <a href="#">
+                    <img
+                      src="images/enter_5.jpg"
+                      alt=""
+                      class="h-28 w-full object-cover rounded"
+                    />
+                    <p class="text-sm mt-2">
+                      កម្មវិធីម៉ូដរបស់ Magnum បង្ហាញមុខជាដំបូងជាមួយភាពជោគជ័យ
+                    </p>
+                  </a>
+                  <a href="#">
+                    <img
+                      src="images/enter_5.jpg"
+                      alt=""
+                      class="h-28 w-full object-cover rounded"
+                    />
+                    <p class="text-sm mt-2">
+                      កម្មវិធីម៉ូដរបស់ Magnum បង្ហាញមុខជាដំបូងជាមួយភាពជោគជ័យ
+                    </p>
+                  </a>
+                  <a href="#">
+                    <img
+                      src="images/enter_5.jpg"
+                      alt=""
+                      class="h-28 w-full object-cover rounded"
+                    />
+                    <p class="text-sm mt-2">
+                      កម្មវិធីម៉ូដរបស់ Magnum បង្ហាញមុខជាដំបូងជាមួយភាពជោគជ័យ
+                    </p>
+                  </a>
+                  <a href="#">
+                    <img
+                      src="images/enter_5.jpg"
+                      alt=""
+                      class="h-28 w-full object-cover rounded"
+                    />
+                    <p class="text-sm mt-2">
+                      កម្មវិធីម៉ូដរបស់ Magnum បង្ហាញមុខជាដំបូងជាមួយភាពជោគជ័យ
+                    </p>
+                  </a>
+                  <a href="#">
+                    <img
+                      src="images/enter_5.jpg"
+                      alt=""
+                      class="h-28 w-full object-cover rounded"
+                    />
+                    <p class="text-sm mt-2">
+                      កម្មវិធីម៉ូដរបស់ Magnum បង្ហាញមុខជាដំបូងជាមួយភាពជោគជ័យ
+                    </p>
+                  </a>
+                  <a href="#">
+                    <img
+                      src="images/enter_5.jpg"
+                      alt=""
+                      class="h-28 w-full object-cover rounded"
+                    />
+                    <p class="text-sm mt-2">
+                      កម្មវិធីម៉ូដរបស់ Magnum បង្ហាញមុខជាដំបូងជាមួយភាពជោគជ័យ
+                    </p>
+                  </a>
+                  
+                  
+                  
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Popular News -->
+          <div class="hidden lg:block w-3/12">
+            <h2
+              class="mt-10 text-lg font-semibold underline underline-offset-8"
+            >
+              អត្ថបទពេញនិយម
+            </h2>
+            <div class="flex flex-col gap-y-3 mt-3">
+              <a href="#" class="flex gap-x-3">
+                <img
+                  src="images/enter_5.jpg"
+                  alt=""
+                  class="w-3/12 h-11 object-cover rounded"
+                />
+                <p class="w-9/12 text-sm">
+                  កម្មវិធីម៉ូដរបស់ Magnum បង្ហាញមុខជាដំបូងជាមួយភាពជោគជ័យ
+                </p>
+              </a>
+              <a href="#" class="flex gap-x-3">
+                <img
+                  src="images/enter_6.jpg"
+                  alt=""
+                  class="w-3/12 h-11 object-cover rounded"
+                />
+                <p class="w-9/12 text-sm">
+                  កម្មវិធីម៉ូដរបស់ Magnum បង្ហាញមុខជាដំបូងជាមួយភាពជោគជ័យ
+                </p>
+              </a>
+              <a href="#" class="flex gap-x-3">
+                <img
+                  src="images/enter_7.jpg"
+                  alt=""
+                  class="w-3/12 h-11 object-cover rounded"
+                />
+                <p class="w-9/12 text-sm">
+                  កម្មវិធីម៉ូដរបស់ Magnum បង្ហាញមុខជាដំបូងជាមួយភាពជោគជ័យ
+                </p>
+              </a>
+              <a href="#" class="flex gap-x-3">
+                <img
+                  src="images/enter_8.jpg"
+                  alt=""
+                  class="w-3/12 h-11 object-cover rounded"
+                />
+                <p class="w-9/12 text-sm">
+                  កម្មវិធីម៉ូដរបស់ Magnum បង្ហាញមុខជាដំបូងជាមួយភាពជោគជ័យ
+                </p>
+              </a>
+              <a href="#" class="flex gap-x-3">
+                <img
+                  src="images/enter_9.png"
+                  alt=""
+                  class="w-3/12 h-11 object-cover rounded"
+                />
+                <p class="w-9/12 text-sm">
+                  កម្មវិធីម៉ូដរបស់ Magnum បង្ហាញមុខជាដំបូងជាមួយភាពជោគជ័យ
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <section class="bg-gray-900 mt-5 md:mt-16">
+      <div class="max-w-6xl mx-auto px-4">
+        <div
+          class="flex flex-col justify-center md:flex-row md:justify-between gap-3 py-4 md:py-7 text-gray-300"
+        >
+          <div class="text-center md:text-start">
+            <img
+              src="images/sabay-digital.png"
+              alt=""
+              class="inline-block h-10 md:h-14 mb-2"
+            />
+            <p class="text-xs md:text-sm mb-2">
+              &copy; រក្សាសិទ្ធិគ្រប់យ៉ាងដោយ Sabay ឆ្នាំ២០២៤
+            </p>
+            <p class="text-xs md:text-sm mb-2">
+              កៅលការណ័ភាពឯកជន | Privacy Policy
+            </p>
+            <h2 class="text-sm md:text-base font-semibold mb-2">អាសយដ្ឋាន</h2>
+            <p class="text-xs md:text-sm mb-2">
+              អគារលេខ ៣០៨ មហាវិថីព្រះមុន្នីវង្ស
+            </p>
+            <p class="text-xs md:text-sm">សង្កាត់បឹងរាំង ខណ្ឌដូនពេញ</p>
+          </div>
+          <div class="hidden md:block">
+            <h2 class="text-lg font-semibold mb-2">អំពីយើង</h2>
+            <p class="text-sm mb-2">
+              Sabay Digital Corporation ជា​ក្រុមហ៊ុន​ព័ត៌មាន​ឌីជីថល
+              និង​កម្សាន្ត​ឈាន​មុខ​គេ​នៅ​កម្ពុជា។ ព័ត៌មាន​បន្ថែម
+            </p>
+            <p class="text-sm mb-2">នៅ​កម្ពុជា។ ព័ត៌មាន​បន្ថែម</p>
+            <h3 class="text-sm font-semibold">
+              ផលិត​ផល​ និង​ សេវាកម្ម របស់ Sabay
+            </h3>
+            <div class="flex gap-x-3 mt-2">
+              <a href="#">
+                <img
+                  src="images/logo.png"
+                  alt=""
+                  class="object-cover h-10 w-10 rounded-full"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="images/logo_2.png"
+                  alt=""
+                  class="object-cover h-10 w-10 rounded-full"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="images/logo_3.png"
+                  alt=""
+                  class="object-cover h-10 w-10 rounded-full"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="images/logo_4.png"
+                  alt=""
+                  class="object-cover h-10 w-10 rounded-full"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="text-center md:text-start">
+            <h2 class="text-base md:text-lg font-semibold mt-2 md:mt-0">
+              ជួបគ្នានៅបណ្តាញសង្គម
+            </h2>
+            <div
+              class="flex justify-center md:justify-start gap-x-2 my-2 text-base md:text-lg"
+            >
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-tiktok"></i></a>
+              <a href="#"><i class="fab fa-telegram"></i></a>
+            </div>
+            <h4 class="text-xs md:text-sm mb-1">ទំនាក់ទំនង</h4>
+            <p class="text-xs md:text-sm mb-1">info@sabay.com</p>
+            <p class="text-xs md:text-sm">023 228 000</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- script js -->
+    <script>
+      const btn = document.getElementById("menu-btn");
+      const nav = document.getElementById("menu");
+
+      btn.addEventListener("click", () => {
+        btn.classList.toggle("open");
+        nav.classList.toggle("show");
+      });
+    </script>
+  </body>
+</html>

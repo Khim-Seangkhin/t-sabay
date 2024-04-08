@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="hidden md:block bg-bgBlack">
+      <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+        <!-- Logo -->
+        <div>
+          <img
+            src="images/logo.png"
+            alt=""
+            class="md:w-16 md:h-16 lg:w-20 lg:h-20 object-cover"
+          />
+        </div>
+        <!-- Adz Top -->
+        <div>
+          <img src="images/adz_top_1.png" alt="" class="md:h-16 lg:h-20" />
+        </div>
+      </div>
+    </header>
+    <!-- Navbar -->
+    <nav class="bg-bgBlack md:bg-bgRed sticky top-0 z-10">
+      <div
+        class="max-w-6xl mx-auto flex justify-between items-center px-4 py-2 md:py-4"
+      >
+        <div
+          id="menu"
+          class="absolute z-10 flex flex-col gap-y-4 top-full left-0 p-4 md:p-0 text-base bg-bgRed w-full gap-x-4 font-semibold md:text-lg text-gray-300 md:static md:flex-row md:bg-transparent"
+        >
+          <a href="index.html" class="hover:text-gray-100 underline underline-offset-8"
+            >ទំព័រដើម</a
+          >
+          <a href="by_category.html" class="hover:text-gray-100">កម្សាន្ដ</a>
+          <a href="by_category.html" class="hover:text-gray-100">បច្ចេកវិទ្យា</a>
+          <a href="by_category.html" class="hover:text-gray-100">ជីវិតនិងសង្គម</a>
+          <a href="by_category.html" class="hover:text-gray-100">កីឡា</a>
+        </div>
+        <!-- Icon -->
+        <button
+          id="menu-btn"
+          class="block hamburger md:hidden focus:outline-none"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+        <!-- Logo -->
+        <div class="block md:hidden">
+          <a href="#">
+            <img src="images/logo.png" alt="" class="object-cover w-9 h-9" />
+          </a>
+        </div>
+        <!-- Deals -->
+        <div class="block md:hidden">
+          <img src="images/deals.gif" alt="" class="w-11" />
+        </div>
+      </div>
+    </nav>
+    <!-- Hero -->
+    <section>
+      <div class="max-w-6xl mx-auto flex gap-x-2 px-0 md:px-4 mt-0 md:mt-2">
+        <!-- Swiper -->
+        <div class="block w-full md:hidden">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <!-- Slide 1 -->
+              <div class="relative swiper-slide">
+                <a href="#">
+                  <img src="images/hero_1.jpg" alt="" class="block w-full h-60 sm:h-80 object-cover">
+                  <div
+                    class="absolute top-2 left-0 py-2 pl-2 pr-7 fix_label bg-bgGreen text-white text-xs"
+                  >
+                    ជីវិតនិងសង្គម
+                  </div>
+                  <div class="absolute left-0 bottom-0 p-3">
+                    <h3 class="text-base font-semibold text-white leading-7 mb-1 hover:text-bgRed transition-all">
+                      ឆ្នាំនេះ ចូលឆ្នាំ​ចំថ្ងៃសៅរ៍ ត្រូវនឹង​វេន​បុត្រីទី៧ សោយសាច់ទ្រាយ គង់​លើសត្វក្ងោក! ចុះបើចូលឆ្នាំចំថ្ងៃផ្សេងៗ?
+                    </h3>
+                    <span class="text-xs text-white">ថ្ងៃនេះ ម៉ោង 17:02</span>
+                  </div>
+                </a>
+              </div>
+              <!-- Slide 2 -->
+              <div class="relative swiper-slide">
+                <a href="#">
+                  <img src="images/hero_2.jpg" alt="" class="block w-full h-60 sm:h-80 object-cover">
+                  <div
+                    class="absolute top-2 left-0 py-2 pl-2 pr-7 fix_label bg-bgGreen text-white text-xs"
+                  >
+                    ជីវិតនិងសង្គម
+                  </div>
+                  <div class="absolute left-0 bottom-0 p-3">
+                    <h3 class="text-base font-semibold text-white leading-7 mb-1 hover:text-bgRed transition-all">
+                      ក្រសួងកិច្ចការនារី និង Kanha
+                      ចុះកិច្ចព្រមព្រៀងលើកកម្ពស់ការយល់ដឹងអំពីសមភាពយេនឌ័រ នៅកម្ពុជា
+                    </h3>
+                    <span class="text-xs text-white">ថ្ងៃនេះ ម៉ោង 17:02</span>
+                  </div>
+                </a>
+              </div>
+              <!-- Slide 3 -->
+              <div class="relative swiper-slide">
+                <a href="#">
+                  <img src="images/hero_4.jpg" alt="" class="block w-full h-60 sm:h-80 object-cover">
+                  <div
+                    class="absolute top-2 left-0 py-2 pl-2 pr-7 fix_label bg-bgBlue text-white text-xs"
+                  >
+                    ជីវិតនិងសង្គម
+                  </div>
+                  <div class="absolute left-0 bottom-0 p-3">
+                    <h3 class="text-base font-semibold text-white leading-7 mb-1 hover:text-bgBlue transition-all">
+                      Toyota យល់ឃើញយ៉ាងម៉េច ក្រោយ Volvo ឈប់ផលិតរថយន្តម៉ាស៊ីនម៉ាស៊ូត?
+                    </h3>
+                    <span class="text-xs text-white">ថ្ងៃនេះ ម៉ោង 17:02</span>
+                  </div>
+                </a>
+              </div>
+              <!-- Slide 4 -->
+              <div class="relative swiper-slide">
+                <a href="#">
+                  <img src="images/hero_3.jpg" alt="" class="block w-full h-60 sm:h-80 object-cover">
+                  <div
+                    class="absolute top-2 left-0 py-2 pl-2 pr-7 fix_label bg-bgYellow text-white text-xs"
+                  >
+                    កីឡា
+                  </div>
+                  <div class="absolute left-0 bottom-0 p-3">
+                    <h3 class="text-base font-semibold text-white leading-7 mb-1 hover:text-bgYellow transition-all">
+                      អូ គូលែន បន្តលើកកម្ពស់សុខុមាលភាពសង្គម ក្នុងទិវារត់ប្រណាំងអន្ដរជាតិពាក់កណ្ដាលម៉ារ៉ាតុងលើកទី ៩
+                    </h3>
+                    <span class="text-xs text-white">ថ្ងៃនេះ ម៉ោង 17:02</span>
+                  </div>
+                </a>
+              </div>
+
+            </div>
+            <!-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div> -->
+          </div>
+        </div>
+        <!-- News Box -->
+        <div class="hidden md:flex md:w-full lg:w-3/4 h-[500px]">
+          <!-- News Left -->
+          <div class="w-3/5 h-full">
+            <!-- News Top -->
+            <a href="detail.html">
+              <div
+                class="relative w-full h-1/2 bg-[url('/images/hero_1.jpg')] bg-no-repeat bg-cover bg-center fix_img"
+              >
+                <div
+                  class="absolute top-2 left-0 py-2 pl-2 pr-7 fix_label bg-bgGreen text-white text-xs"
+                >
+                  ជីវិតនិងសង្គម
+                </div>
+                <div class="absolute left-0 bottom-0 p-3">
+                  <h3 class="text-base font-semibold text-white leading-7 mb-1 hover:text-bgRed transition-all">
+                    ឆ្នាំនេះ ចូលឆ្នាំ​ចំថ្ងៃសៅរ៍ ត្រូវនឹង​វេន​បុត្រីទី៧ សោយសាច់ទ្រាយ គង់​លើសត្វក្ងោក! ចុះបើចូលឆ្នាំចំថ្ងៃផ្សេងៗ?
+                  </h3>
+                  <span class="text-xs text-white">ថ្ងៃនេះ ម៉ោង 17:02</span>
+                </div>
+              </div>
+            </a>
+            <!-- News Bottom -->
+            <a href="#">
+              <div
+                class="relative w-full h-1/2 bg-[url('/images/hero_2.jpg')] bg-no-repeat bg-cover bg-center fix_img"
+              >
+                <div
+                  class="absolute top-2 left-0 py-2 pl-2 pr-7 fix_label bg-bgPink text-white text-xs"
+                >
+                  ជីវិតនិងសង្គម
+                </div>
+                <div class="absolute left-0 bottom-0 p-3">
+                  <h3 class="text-base font-semibold text-white leading-7 mb-1 hover:text-bgRed transition-all">
+                    ក្រសួងកិច្ចការនារី និង Kanha
+                    ចុះកិច្ចព្រមព្រៀងលើកកម្ពស់ការយល់ដឹងអំពីសមភាពយេនឌ័រ នៅកម្ពុជា
+                  </h3>
+                  <span class="text-xs text-white">ថ្ងៃនេះ ម៉ោង 17:02</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- News Right -->
+          <div class="w-2/5 h-full">
+            <!-- News Top -->
+            <a href="#">
+            <div
+              class="relative w-full h-1/2 bg-[url('/images/hero_4.jpg')] bg-no-repeat bg-cover bg-center fix_img"
+            >
+              <div
+                class="absolute top-2 left-0 py-2 pl-2 pr-7 fix_label bg-bgBlue text-white text-xs"
+              >
+                បច្ចេកវិទ្យា
+              </div>
+              <div class="absolute left-0 bottom-0 p-3">
+                <h3 class="text-base font-semibold text-white leading-7 mb-1 hover:text-bgRed transition-all">
+                  Toyota យល់ឃើញយ៉ាងម៉េច ក្រោយ Volvo ឈប់ផលិតរថយន្តម៉ាស៊ីនម៉ាស៊ូត?
+                </h3>
+                <span class="text-xs text-white">ថ្ងៃនេះ ម៉ោង 17:02</span>
+              </div>
+            </div>
+          </a>
+            <!-- News Bottom -->
+            <a href="#">
+            <div
+              class="relative w-full h-1/2 bg-[url('/images/hero_4.webp')] bg-no-repeat bg-cover bg-center fix_img"
+            >
+              <div
+                class="absolute top-2 left-0 py-2 pl-2 pr-7 fix_label bg-bgYellow text-white text-xs"
+              >
+                កីឡា
+              </div>
+              <div class="absolute left-0 bottom-0 p-3">
+                <h3 class="text-base font-semibold text-white leading-7 mb-1 hover:text-bgRed transition-all">
+                  ពិន្ទុបានតែ​១គ្រាប់​គត់ ឥន្ទ្រីពិឃាដ​ឌូក
+                  លែងហ៊ាន​លេង​១ស្មើ​ជាមួយ​យុនស្រែស្រែ
+                  ចំណែក​ម៉ាប់​ឆ្វេង​ចង់​សាក​បន្ត​ទៀត​
+                </h3>
+                <span class="text-xs text-white">ថ្ងៃនេះ ម៉ោង 17:02</span>
+              </div>
+            </div>
+          </a>
+          </div>
+        </div>
+        <!-- Adz Bottom -->
+        <div class="hidden lg:w-1/4 h-[500px] lg:flex flex-col gap-y-2">
+          <!-- Adz 1 -->
+          <div class="bg-red-400 w-full h-1/2">
+            <img
+              src="images/adz_bottom_1.png"
+              alt=""
+              class="object-cover w-full h-full"
+            />
+          </div>
+          <!-- Adz 2 -->
+          <div class="bg-red-400 w-full h-1/2">
+            <img
+              src="images/adz_bottom_2.png"
+              alt=""
+              class="object-cover w-full h-full"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Video -->
+    <section>
+      <div class="max-w-6xl mx-auto px-0 md:px-4">
+        <div class="inline-block py-2 pl-2 pr-7 mt-2 md:mt-5 font-bold text-base md:text-lg text-white bg-bgRed heading">
+          វីដេអូ​ <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="border-t-2 p-3 md:px-7 md:py-5 shadow-lg border-bgRed">
+          <div class="grid grid-cols-16 gap-2 w-full">
+            <a href="#" class="video_box">
+              <img src="images/video_1.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                ត្រៀមៗចូលឆ្នាំ រាំហុយដី “ក្រមុំស្រុកណា” ឮតែភ្លេងកន្រ្តាក់ដៃកន្រ្តាក់ជើងងក់ក្បាលភ្លែត
+              </p>
+            </a>
+            <a href="#" class="video_box">
+              <img src="images/video_2.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                ទស្សនាវីដេអូ​កប៉ាល់​ដឹកកុងតឺន័រ ដែលបាន​បើកបុកស្ពានបាក់រលំ​ចូលក្នុងទន្លេ នៅរដ្ឋ Maryland
+              </p>
+            </a>
+            <a href="#" class="video_box">
+              <img src="images/video_3.jpeg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                ផ្លូវ១ខ្សែនេះ យើងចង់ជិះកុងទ័រប៉ុន្មានក៏ស្រេចចិត្ត ឱ្យតែហ៊ាន
+              </p>
+            </a>
+            <a href="#" class="video_box">
+              <img src="images/video_4.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                Tim Cook បើកទ្វារសម្ពោធហាង Apple ដ៏ធំបំផុត​នៅសៀងហៃ
+              </p>
+            </a>
+            <a href="#" class="video_box">
+              <img src="images/video_5.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                សាយ៖ «អរគុណកាលៈទេសៈនេះ ឱ្យខ្ញុំស្គាល់មិត្តពិត ឬក្លែងក្លាយ»
+              </p>
+            </a>
+            <a href="#" class="video_box">
+              <img src="images/video_6.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                មកដឹងចំណុចពិសេស​របស់​ម៉ូតូស្ព័រ Ducati Superleggera V4 ដែលផលិតត្រឹម ៥០០គ្រឿងប៉ុណ្ណោះ
+              </p>
+            </a>
+            <a href="#" class="video_box">
+              <img src="images/video_7.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                សៀមរាប រៀបចំហើយស្រេច ត្រៀមស្វាគមន៍​ភ្ញៀវមកបុណ្យទន្លេ​នៅចុងសប្តាហ៍នេះ
+              </p>
+            </a>
+            <a href="#" class="video_box">
+              <img src="images/video_8.png" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                ហេតុផលពិសេស Taylor Swift បញ្ចូល វីដេអូជីដូននៅប្រាសាទខ្មែរ ក្នុងបទ "Marjorie"
+              </p>
+            </a>
+            <a href="#" class="video_box">
+              <img src="images/video_9.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                ចំណូលម្នាក់ៗខ្ពស់ប្រហែលសេដ្ឋីនី តែពេលទិញឥវ៉ាន់ BLACKPINK មិនអាចចោលចរិតចាស់ទេ
+              </p>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Entertainment -->
+    <section>
+      <div class="max-w-6xl mx-auto px-0 md:px-4">
+        <div class="inline-block py-2 pl-2 pr-7 mt-2 md:mt-5 font-bold text-base md:text-lg text-white bg-bgPink heading">
+          កម្សាន្ដ <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="border-t-2 p-3 md:px-7 md:py-5 shadow-lg border-bgPink">
+          <div class="grid grid-cols-16 gap-2 w-full">
+            <a href="#" class="enter_box">
+              <img src="images/enter_1.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                កម្មវិធីម៉ូដរបស់ Magnum បង្ហាញមុខជាដំបូងជាមួយភាពជោគជ័យ និងបន្សល់ទុកការចងចាំអស្ចារ្
+              </p>
+            </a>
+            <a href="#" class="enter_box">
+              <img src="images/enter_2.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                តារាល្បីៗតែងខ្លួនយ៉ាងលេចធ្លោ និងទាក់ទាញក្នុងកម្មវិធី ម៉េកណាំ
+              </p>
+            </a>
+            <a href="#" class="enter_box">
+              <img src="images/enter_3.jpeg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                តស់! ទៅបុណ្យភូមិដេញថ្លៃ «ក្អមមាស១១១» ដើម្បីជួយដល់សិល្ប:តន្រ្តីជនជាតិដើមភាគតិចខេត្តមណ្ឌលគិរី
+              </p>
+            </a>
+            <a href="#" class="enter_box">
+              <img src="images/enter_4.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                ត្រៀមខ្លួនណា!!! «រាត្រីក្បិន» ក្រាលកន្ទេលមើលល្ខោនយីកេ នៅបុណ្យភូមិ ចាប់ផ្តើមយប់នេះហើយ!!
+              </p>
+            </a>
+            <a href="#" class="enter_box">
+              <img src="images/enter_5.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                ប្លែកភ្នែកជាមួយទស្សនីយភាពបែប Art Deco ក្នុងកម្មវិធី Magnum យប់មិញ
+              </p>
+            </a>
+            <a href="#" class="enter_box">
+              <img src="images/enter_6.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                ស្ងាត់ៗ ហង្ស ម៉ានីតា ត្រៀមចូលរួមសង់ផ្ទះជូនប្រជាពលរដ្ឋជាមួយអង្គការលំនៅឋានមនុស្សជាតិកម្ពុជា
+              </p>
+            </a>
+            <a href="#" class="enter_box">
+              <img src="images/enter_7.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                «បុណ្យភូមិ» ចាប់ផ្តើមហើយ! តោះមកមើលថ្ងៃទីមួយមានកម្មវិធីពិសេសអ្វីខ្លះ?
+              </p>
+            </a>
+            <a href="#" class="enter_box">
+              <img src="images/enter_8.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                កូនធ្លាប់មើលថែផ្ទាល់ដៃ!Angelina អាក់អន់ស្រពោនចិត្ត ចំពោះការសម្រេចចិត្ត Shiloh ប្ដូរទៅនៅជាមួយ Brad Pitt
+              </p>
+            </a>
+            <a href="#" class="enter_box">
+              <img src="images/enter_9.png" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                ប្រកាសគូស្នេហ៍ថ្មី Chaeyoung និង Zion.T ទាក់ទងស្នេហានឹងគ្នា និងប្រតិកម្មមហាជន
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Technology -->
+    <section>
+      <div class="max-w-6xl mx-auto px-0 md:px-4">
+        <div class="inline-block py-2 pl-2 pr-7 mt-2 md:mt-5 font-bold text-base md:text-lg text-white bg-bgBlue heading">
+          បច្ចេកវិទ្យា <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="border-t-2 p-3 md:px-7 md:py-5 shadow-lg border-bgBlue">
+          <div class="grid grid-cols-16 gap-2 w-full">
+            <a href="#" class="tech_box">
+              <img src="images/tech_1.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                MG បានរក្សាស្តុករថយន្តរបស់ខ្លួនដើម្បីផ្គត់ផ្គង់ជូនអតិថិជនសម្រេចបាននូវកំណត់ត្រាដ៏អស្ចារ្យជាមួយការលក់ចេញ 200 គ្រឿងក្នុងខែមីនា
+              </p>
+            </a>
+            <a href="#" class="tech_box">
+              <img src="images/tech_2.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                ក្លាយជាតំណាងផ្នែកលក់តាមប្រព័ន្ធផ្សព្វផ្សាយ Google ផ្លូវការនៅក្នុងប្រទេសកម្ពុជា
+              </p>
+            </a>
+            <a href="#" class="tech_box">
+              <img src="images/tech_3.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                Land Rover Cambodia - ធ្វើសន្និសីទកាសែតអំពី “រថយន្តឆេះតាមដងផ្លូវ”
+              </p>
+            </a>
+            <a href="#" class="tech_box">
+              <img src="images/tech_4.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                Toyota យល់ឃើញយ៉ាងម៉េច ក្រោយ Volvo ឈប់ផលិតរថយន្តម៉ាស៊ីនម៉ាស៊ូត?
+              </p>
+            </a>
+            <a href="#" class="tech_box">
+              <img src="images/tech_5.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                Mitsubishi Triton 2024 ផ្លាស់ប្តូរថ្មីទាំងស្រុង បង្ហាញខ្លួនផ្លូវការ ជាមួយតម្លៃខ្ទង់ 4 ម៉ឺន
+              </p>
+            </a>
+            <a href="#" class="tech_box">
+              <img src="images/tech_6.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                ភ្ជាប់គម្រោង Smart ល្អ! អ្នកនឹងមានឱកាសបង្វិលកងឈ្នះទូរសព្ទដៃទំនើប Samsung និងរង្វាន់ផ្សេងៗទៀតជាច្រើន សរុប 5 គ្រឿងរៀងរាល់ថ្ងៃ
+              </p>
+            </a>
+            <a href="#" class="tech_box">
+              <img src="images/tech_7.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                បន្ទាប់ពី ភីកអាប់អគ្គិសនី Isuzu D-Max ផលិតនៅថៃ! ស្រាប់តែ Toyota ក៏ប្រកាសដែរថា នឹងផលិត Hilux អគ្គិសនី នៅក្នុង​ប្រទេសនេះផងដែរ
+              </p>
+            </a>
+            <a href="#" class="tech_box">
+              <img src="images/tech_8.png" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                Ford Ranger ជាប់ជាជម្រើសរថយន្ត Pick-Up ទទួលចំណាត់ថ្នាក់លេខ១ ​ប្រចាំឆ្នាំ២០២៣!
+              </p>
+            </a>
+            <a href="#" class="tech_box">
+              <img src="images/tech_9.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                Metfone Stars ជាសក្ខីភាពដ៏ជាក់ស្តែងរបស់ ក្រុមហ៊ុន Metfone ដែលនាំអ្នកឈានចាប់ក្តីស្រមៃឱ្យក្លាយជាការពិត
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Life & Social -->
+    <section>
+      <div class="max-w-6xl mx-auto px-0 md:px-4">
+        <div class="inline-block py-2 pl-2 pr-7 mt-2 md:mt-5 font-bold text-base md:text-lg text-white bg-bgGreen heading">
+          ជីវិតនិងសង្គម <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="border-t-2 p-3 md:px-7 md:py-5 shadow-lg border-bgGreen">
+          <div class="grid grid-cols-16 gap-2 w-full">
+            <a href="#" class="life_box">
+              <img src="images/life_1.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                ក្រុមហ៊ុន GOSSEN WATER ប្ដេជ្ញាផ្ដល់ទឹកពិសាដ៏មានគុណភាពសម្រាប់អតិថិជន ក្នុងសម្ពោធបើកShowroom
+              </p>
+            </a>
+            <a href="#" class="life_box">
+              <img src="images/life_2.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                ដំណើរកម្សាន្តគូស្នេហ៍ជាមួយ CORNETTO ឆ្ពោះទៅកាន់ខេត្តសៀមរាប
+              </p>
+            </a>
+            <a href="#" class="life_box">
+              <img src="images/life_3.jpeg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                Metfone Stars ទទួលបានអ្នកចូលទស្សនាជាង ១០០លានដងត្រឹមរយៈជិតបីសប្តាហ៍
+              </p>
+            </a>
+            <a href="#" class="life_box">
+              <img src="images/life_4.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                AEON MALLs សង្ក្រាន្តឆ្នាំថ្មី ២០២៤ ការលក់បញ្ចុះតម្លៃរហូតដល់ ៥០% ពីបណ្ដាហាងល្បីៗជិត ៤០០ហាង និងកម្មវិធីប្រពៃណីខ្មែរសប្បាយៗ
+              </p>
+            </a>
+            <a href="#" class="life_box">
+              <img src="images/life_5.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                ចូលឆ្នាំខ្មែរជិតមកដល់ហើយ! មកមើល​ស្ថានភាពផ្លូវ វាលរេញ-ត្រពាំងរពៅ វិញ​ម្តងមើល យ៉ាងណាហើយ
+              </p>
+            </a>
+            <a href="#" class="life_box">
+              <img src="images/life_6.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                ពិព័រណ៍ធុរកិច្ច និងដៃគូពាណិជ្ជកម្មបង្ហាញមុខ ៣ ថ្ងៃជាប់គ្នា និងមានវត្តមានរបស់វាគ្មិនសំខាន់ៗ ៤ រូប
+              </p>
+            </a>
+            <a href="#" class="life_box">
+              <img src="images/life_7.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                ធនាគារ ABA បង្ហាញភាពល្អប្រសើរក្នុងការបង្កើនប្រាក់ចំណូល និងប្រាក់ចំណេញ ក្នុងឆ្នាំ២០២៣
+              </p>
+            </a>
+            <a href="#" class="life_box">
+              <img src="images/life_8.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                ក្នុងថ្ងៃសម្ពោធបើកសាខាថ្មី PAPA JOHNS ប្រកាសផ្ដល់កាដូពិសេសចំនួន ២ ជូនអតិថិជន
+              </p>
+            </a>
+            <a href="#" class="life_box">
+              <img src="images/life_9.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                រញ្ជួយដីតៃវ៉ាន់ខ្លាំងបំផុត៖ បាក់រលំអគារជាង១០០ មនុស្សស្លាប់កើនដល់ ៧នាក់ និងរបួសជាង ៧០០នាក់
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Sport -->
+    <section>
+      <div class="max-w-6xl mx-auto px-0 md:px-4">
+        <div class="inline-block py-2 pl-2 pr-7 mt-2 md:mt-5 font-bold text-base md:text-lg text-white bg-bgYellow heading">
+          កីឡា <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="border-t-2 p-3 md:px-7 md:py-5 shadow-lg border-bgYellow">
+          <div class="grid grid-cols-16 gap-2 w-full">
+            <a href="#" class="sport_box">
+              <img src="images/sport_1.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                សហព័ន្ធ​ប្រដាល់​គុនខ្មែរ៖​ ជូន​ថវិកា​មន្ត្រី គណៈកម្មការ​ប្រតិបត្តិ​ និង​សូត្រ​មន្ត​អបអរ​ឆ្នាំ​ថ្មី​
+              </p>
+            </a>
+            <a href="#" class="sport_box">
+              <img src="images/sport_3.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                លេខ​ធំ​បន្តិច​ហើយ! សង្វៀន​ BTV ដាក់​ខ្សែក្រវាត់​ ISKA ​ពិភពលោក​ ៣គ្រឿង​ឲ្យ​កីឡាករ​តំណាង​កម្ពុជា​ប្រកួត​ដណ្ដើម​
+              </p>
+            </a>
+            <a href="#" class="sport_box">
+              <img src="images/sport_4.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                កីឡាករ​អាហ្វ្រិក​ខាង​ត្បូង​រូប​នេះ​ ត្រូវ​បាន​បាញ់​សម្លាប់​ ក្នុង​ករណី​សង្ស័យ​ប៉ុនប៉ង​ចាប់ជំរិត​
+              </p>
+            </a>
+            <a href="#" class="sport_box">
+              <img src="images/sport_6.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                Ten Hagថា​ Mount ធ្លាប់​បដិសេធ​ Chelsea ច្រើន​ដង​ដើម្បី​តែ​មក​ Man Utd
+              </p>
+            </a>
+            <a href="#" class="sport_box">
+              <img src="images/sport_7.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                ពិន្ទុបានតែ​១គ្រាប់​គត់ ឥន្ទ្រីពិឃាដ​ឌូក លែងហ៊ាន​លេង​១ស្មើ​ជាមួយ​យុនស្រែស្រែ
+              </p>
+            </a>
+            <a href="#" class="sport_box">
+              <img src="images/sport_8.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                កីឡាករ​មាន​តម្លៃ​ខ្លួន​ខ្ពស់​បំផុត​ទាំង​១០រូប​​ ដែល​អាច​នឹង​ក្លាយ​ជា​ Free Agent នៅ​រដូវកាល​ក្ដៅ​ខាង​មុខ​
+              </p>
+            </a>
+            <a href="#" class="sport_box">
+              <img src="images/sport_9.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                គ្រែ​ដេក​របស់​ Ronaldo ក្នុង​សណ្ឋាគារ​​នៅ​ប្រទេស​ស្លូវេនី ត្រូវ​បាន​ដាក់​ដេញ​ថ្លៃ
+              </p>
+            </a>
+            <a href="#" class="sport_box">
+              <img src="images/sport_10.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                គណៈកម្មាធិការជាតិស្ប៉េស្បាល់អូឡាំពិកកម្ពុជា៖ ឯកឧត្ដម ជា សុមេធី ត្រូវបានជ្រើសតាំងជាប្រធាន​ថ្មី​
+              </p>
+            </a>
+            <a href="#" class="sport_box">
+              <img src="images/sport_11.jpg" alt="" class="object-cover w-full h-28 md:h-24 hover:scale-95 transition-all duration-300">
+              <p class="text-sm py-2">
+                កក្រើក​សង្វៀន​ Wurkz!​ ចាន់​ រតនា​ វិល​ចូល​សង្វៀន​គុន​ខ្មែរ​វិញ​បាន​ឱកាស​ដណ្ដើម​ខ្សែក្រវាត់​ IPCC​
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <section class="bg-gray-900 mt-5 md:mt-16">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="flex flex-col justify-center md:flex-row md:justify-between gap-3 py-4 md:py-7 text-gray-300">
+          <div class="text-center md:text-start">
+            <img src="images/sabay-digital.png" alt="" class="inline-block h-10 md:h-14 mb-2">
+            <p class="text-xs md:text-sm mb-2">&copy; រក្សាសិទ្ធិគ្រប់យ៉ាងដោយ Sabay ឆ្នាំ២០២៤</p>
+            <p class="text-xs md:text-sm mb-2">កៅលការណ័ភាពឯកជន | Privacy Policy</p>
+            <h2 class="text-sm md:text-base font-semibold mb-2">អាសយដ្ឋាន</h2>
+            <p class="text-xs md:text-sm mb-2">អគារលេខ ៣០៨ មហាវិថីព្រះមុន្នីវង្ស</p>
+            <p class="text-xs md:text-sm">សង្កាត់បឹងរាំង ខណ្ឌដូនពេញ</p>
+          </div>
+          <div class="hidden md:block">
+            <h2 class="text-lg font-semibold mb-2">អំពីយើង</h2>
+            <p class="text-sm mb-2">
+              Sabay Digital Corporation ជា​ក្រុមហ៊ុន​ព័ត៌មាន​ឌីជីថល និង​កម្សាន្ត​ឈាន​មុខ​គេ​នៅ​កម្ពុជា។ ព័ត៌មាន​បន្ថែម
+            </p>
+            <p class="text-sm mb-2">
+              នៅ​កម្ពុជា។ ព័ត៌មាន​បន្ថែម
+            </p>
+            <h3 class="text-sm font-semibold">ផលិត​ផល​ និង​ សេវាកម្ម របស់ Sabay</h3>
+            <div class="flex gap-x-3 mt-2">
+              <a href="#">
+                <img src="images/logo.png" alt="" class="object-cover h-10 w-10 rounded-full">
+              </a>
+              <a href="#">
+                <img src="images/logo_2.png" alt="" class="object-cover h-10 w-10 rounded-full">
+              </a>
+              <a href="#">
+                <img src="images/logo_3.png" alt="" class="object-cover h-10 w-10 rounded-full">
+              </a>
+              <a href="#">
+                <img src="images/logo_4.png" alt="" class="object-cover h-10 w-10 rounded-full">
+              </a>
+            </div>
+          </div>
+          <div class="text-center md:text-start">
+            <h2 class="text-base md:text-lg font-semibold mt-2 md:mt-0">
+              ជួបគ្នានៅបណ្តាញសង្គម
+            </h2>
+            <div class="flex justify-center md:justify-start gap-x-2 my-2 text-base md:text-lg">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-tiktok"></i></a>
+              <a href="#"><i class="fab fa-telegram"></i></a>
+            </div>
+            <h4 class="text-xs md:text-sm mb-1">ទំនាក់ទំនង</h4>
+            <p class="text-xs md:text-sm mb-1">info@sabay.com</p>
+            <p class="text-xs md:text-sm">023 228 000</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- script js -->
+    <script>
+      const btn = document.getElementById("menu-btn");
+      const nav = document.getElementById("menu");
+
+      btn.addEventListener("click", () => {
+        btn.classList.toggle("open");
+        nav.classList.toggle("show");
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        // spaceBetween: 30,
+        loop: true,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        // navigation: {
+        //   nextEl: ".swiper-button-next",
+        //   prevEl: ".swiper-button-prev",
+        // },
+      });
+    </script>
+  </body>
+</html>

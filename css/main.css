@@ -927,22 +927,6 @@ video {
   background-color: rgb(248 113 113 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/images\/hero_1\.jpg\'\)\] {
-  background-image: url('/images/hero_1.jpg');
-}
-
-.bg-\[url\(\'\/images\/hero_2\.jpg\'\)\] {
-  background-image: url('/images/hero_2.jpg');
-}
-
-.bg-\[url\(\'\/images\/hero_4\.jpg\'\)\] {
-  background-image: url('/images/hero_4.jpg');
-}
-
-.bg-\[url\(\'\/images\/hero_4\.webp\'\)\] {
-  background-image: url('/images/hero_4.webp');
-}
-
 .bg-cover {
   background-size: cover;
 }
@@ -1263,7 +1247,10 @@ video {
 
 @media (max-width: 480px) {
   .video_box:nth-child(9),
-  .enter_box:nth-child(9) {
+  .enter_box:nth-child(9),
+  .tech_box:nth-child(9),
+  .life_box:nth-child(9),
+  .sport_box:nth-child(9) {
     display: none;
   }
 }

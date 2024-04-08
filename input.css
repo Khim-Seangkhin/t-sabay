@@ -159,7 +159,10 @@
 
 @media (max-width: 480px) {
   .video_box:nth-child(9),
-  .enter_box:nth-child(9) {
+  .enter_box:nth-child(9),
+  .tech_box:nth-child(9),
+  .life_box:nth-child(9),
+  .sport_box:nth-child(9) {
     display: none;
   }
 }

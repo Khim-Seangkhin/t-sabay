@@ -12,6 +12,14 @@
   }
 }
 
+.active{
+  @apply underline underline-offset-8;
+}
+
+.label{
+  @apply absolute top-2 left-0 py-2 pl-2 pr-7 fix_label text-white text-xs;
+}
+
 .fix_img::before,
 .swiper-slide::before {
   position: absolute;
@@ -29,7 +37,7 @@
 }
 
 .fix_label {
-  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 48%, 0% 0%);
+  clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
 }
 
 .video_box:nth-child(1) {
@@ -87,17 +95,17 @@
 }
 
 .enter_box:first-child p{
-  background-color: #fa5480;
+  background-color: #ec4899;
 }
 
 .tech_box:first-child p{
-  background-color: #4390f8;
+  background-color: #3b82f6;
 }
 .life_box:first-child p{
-  background-color: #38c378;
+  background-color: #22c55e;
 }
 .sport_box:first-child p{
-  background-color: #F9A62B;
+  background-color: #eab308;
 }
 
 @media (max-width: 992px) {
